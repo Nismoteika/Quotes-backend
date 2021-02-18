@@ -14,7 +14,7 @@ class QuoteController extends Controller
      */
     public function index()
     {
-        return Quote::paginate(10);
+        return Quote::orderBy('created_at', 'desc')->paginate(10);
     }
 
     /**
