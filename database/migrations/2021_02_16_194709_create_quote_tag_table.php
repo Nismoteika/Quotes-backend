@@ -18,6 +18,9 @@ class CreateQuoteTagTable extends Migration
             $table->unsignedBigInteger('quote_id');
             $table->unsignedBigInteger('tag_id');
             $table->timestamps();
+
+            $table->foreign('tag_id')->references('id')->on('tags');
+            $table->foreign('quote_id')->references('id')->on('quotes');
         });
     }
 
