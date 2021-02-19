@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
+    "name": "Nismoteika/quotes",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "quotes test task",
     "keywords": [
         "framework",
         "laravel"

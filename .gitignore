@@ -1,7 +1,7 @@
 /node_modules
 /public/hot
 /public/storage
-/resources/*
+/resources
 /storage/*.key
 /vendor
 .vscode
